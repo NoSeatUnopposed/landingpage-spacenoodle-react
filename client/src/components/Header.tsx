@@ -5,6 +5,13 @@ import './Header.scss'
 
 export const Header = () => {
   return (
-    <h1>buttons go here</h1>
+    <>
+      <Link to='/' className='logo'>
+        <h1 className='logo-text'></h1>
+      </Link>
+      <header>
+
+      </header>
+    </>
   )
 }

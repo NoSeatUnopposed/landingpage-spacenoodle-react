@@ -1,0 +1,17 @@
+$phone-width: 394px;
+$tablet-width: 768px;
+$large-table-width: 1024px;
+$laptop-width: 1366px;
+$desktop-width: 1920px;
+
+@mixin small {
+  @media (max-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: $laptop-width) {
+    @content;
+  }
+}

@@ -1,0 +1,6 @@
+@import "./helpers/styles";
+
+.App {
+  @include fillscreen-bottomless;
+  background-color: $background;
+}
